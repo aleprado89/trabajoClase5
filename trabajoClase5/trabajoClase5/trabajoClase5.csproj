@@ -79,38 +79,27 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="cuentasAlta.aspx" />
-    <Content Include="cuentasBaja.aspx" />
-    <Content Include="cuentasModificacion.aspx" />
+    <Content Include="gestionarCuentas.aspx" />
+    <Content Include="gestionarRegistrosContables.aspx" />
     <Content Include="inicio.aspx" />
-    <Content Include="registrosContablesAlta.aspx" />
-    <Content Include="registrosContablesBaja.aspx" />
-    <Content Include="registrosContablesModificacion.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="cuentasAlta.aspx.cs">
-      <DependentUpon>cuentasAlta.aspx</DependentUpon>
+    <Compile Include="gestionarCuentas.aspx.cs">
+      <DependentUpon>gestionarCuentas.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="cuentasAlta.aspx.designer.cs">
-      <DependentUpon>cuentasAlta.aspx</DependentUpon>
+    <Compile Include="gestionarCuentas.aspx.designer.cs">
+      <DependentUpon>gestionarCuentas.aspx</DependentUpon>
     </Compile>
-    <Compile Include="cuentasBaja.aspx.cs">
-      <DependentUpon>cuentasBaja.aspx</DependentUpon>
+    <Compile Include="gestionarRegistrosContables.aspx.cs">
+      <DependentUpon>gestionarRegistrosContables.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="cuentasBaja.aspx.designer.cs">
-      <DependentUpon>cuentasBaja.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="cuentasModificacion.aspx.cs">
-      <DependentUpon>cuentasModificacion.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="cuentasModificacion.aspx.designer.cs">
-      <DependentUpon>cuentasModificacion.aspx</DependentUpon>
+    <Compile Include="gestionarRegistrosContables.aspx.designer.cs">
+      <DependentUpon>gestionarRegistrosContables.aspx</DependentUpon>
     </Compile>
     <Compile Include="inicio.aspx.cs">
       <DependentUpon>inicio.aspx</DependentUpon>
@@ -124,27 +113,6 @@
       <AutoGen>True</AutoGen>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
-    </Compile>
-    <Compile Include="registrosContablesAlta.aspx.cs">
-      <DependentUpon>registrosContablesAlta.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="registrosContablesAlta.aspx.designer.cs">
-      <DependentUpon>registrosContablesAlta.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="registrosContablesBaja.aspx.cs">
-      <DependentUpon>registrosContablesBaja.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="registrosContablesBaja.aspx.designer.cs">
-      <DependentUpon>registrosContablesBaja.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="registrosContablesModificacion.aspx.cs">
-      <DependentUpon>registrosContablesModificacion.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="registrosContablesModificacion.aspx.designer.cs">
-      <DependentUpon>registrosContablesModificacion.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <PropertyGroup>

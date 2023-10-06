@@ -12,21 +12,15 @@
         <div>
             <asp:Panel ID="Panel1" runat="server">
                 CUENTAS<br />
-                <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/cuentasAlta.aspx">Alta de Cuentas</asp:HyperLink>
-                <br />
-                <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/cuentasBaja.aspx">Baja de Cuentas</asp:HyperLink>
-                <br />
-                <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/cuentasModificacion.aspx">Modificar Cuentas</asp:HyperLink>
+                <asp:HyperLink ID="HyperLink7" runat="server" NavigateUrl="~/gestionarCuentas.aspx">Gestionar Cuentas</asp:HyperLink>
                 <br />
             </asp:Panel>
             <br />
             <asp:Panel ID="Panel2" runat="server">
                 REGISTROS CONTABLES<br />
-                <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/registrosContablesAlta.aspx">Alta de Registros Contables</asp:HyperLink>
+                <asp:HyperLink ID="HyperLink8" runat="server" NavigateUrl="~/gestionarRegistrosContables.aspx">Gestionar Registros Contables</asp:HyperLink>
+                <br />
             </asp:Panel>
-            <asp:HyperLink ID="HyperLink6" runat="server" NavigateUrl="~/registrosContablesBaja.aspx">Baja de Registros Contables</asp:HyperLink>
-            <br />
-                <asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="~/registrosContablesModificacion.aspx">Modificar Registros Contables</asp:HyperLink>
             <br />
         </div>
     </form>

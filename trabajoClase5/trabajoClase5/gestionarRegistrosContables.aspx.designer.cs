@@ -10,79 +10,43 @@
 namespace trabajoClase5 {
     
     
-    public partial class registrosContablesModificacion {
+    public partial class gestionarRegistrosContables {
         
         /// <summary>
-        /// Control form2.
+        /// Control form1.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form2;
+        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// Control Panel2.
+        /// Control Panel1.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel2;
+        protected global::System.Web.UI.WebControls.Panel Panel1;
         
         /// <summary>
-        /// Control idRegistroTB.
+        /// Control registrosCargadosDDL.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox idRegistroTB;
+        protected global::System.Web.UI.WebControls.DropDownList registrosCargadosDDL;
         
         /// <summary>
-        /// Control buscarBT.
+        /// Control eliminarBT.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button buscarBT;
-        
-        /// <summary>
-        /// Control idLB.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label idLB;
-        
-        /// <summary>
-        /// Control Label2.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label2;
-        
-        /// <summary>
-        /// Control datosLB.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label datosLB;
-        
-        /// <summary>
-        /// Control panelModificacion.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel panelModificacion;
+        protected global::System.Web.UI.WebControls.Button eliminarBT;
         
         /// <summary>
         /// Control Label1.
@@ -103,13 +67,13 @@ namespace trabajoClase5 {
         protected global::System.Web.UI.WebControls.DropDownList cuentaDDL;
         
         /// <summary>
-        /// Control Label4.
+        /// Control Label2.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label4;
+        protected global::System.Web.UI.WebControls.Label Label2;
         
         /// <summary>
         /// Control montoTB.
@@ -139,13 +103,31 @@ namespace trabajoClase5 {
         protected global::System.Web.UI.WebControls.DropDownList tipoDDL;
         
         /// <summary>
-        /// Control actualizarBT.
+        /// Control agregarBT.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button actualizarBT;
+        protected global::System.Web.UI.WebControls.Button agregarBT;
+        
+        /// <summary>
+        /// Control modificarBT.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button modificarBT;
+        
+        /// <summary>
+        /// Control registrosTabla.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Table registrosTabla;
         
         /// <summary>
         /// Control resultadoLB.
@@ -157,13 +139,31 @@ namespace trabajoClase5 {
         protected global::System.Web.UI.WebControls.Label resultadoLB;
         
         /// <summary>
-        /// Control HyperLink1.
+        /// Control HyperLink2.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink HyperLink1;
+        protected global::System.Web.UI.WebControls.HyperLink HyperLink2;
+        
+        /// <summary>
+        /// Control SqlDataSourceCuentas.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSourceCuentas;
+        
+        /// <summary>
+        /// Control SqlDataSourceRegistrosTabla.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSourceRegistrosTabla;
         
         /// <summary>
         /// Control SqlDataSourceRegistros.
@@ -175,12 +175,12 @@ namespace trabajoClase5 {
         protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSourceRegistros;
         
         /// <summary>
-        /// Control SqlDataSourceCuentas.
+        /// Control SqlDataSourceRegistrosModificar.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSourceCuentas;
+        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSourceRegistrosModificar;
     }
 }

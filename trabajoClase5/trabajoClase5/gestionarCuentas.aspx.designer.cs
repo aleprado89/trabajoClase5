@@ -10,7 +10,7 @@
 namespace trabajoClase5 {
     
     
-    public partial class cuentasAlta {
+    public partial class gestionarCuentas {
         
         /// <summary>
         /// Control form1.
@@ -49,6 +49,51 @@ namespace trabajoClase5 {
         protected global::System.Web.UI.WebControls.Button agregarBT;
         
         /// <summary>
+        /// Control tablaLB.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label tablaLB;
+        
+        /// <summary>
+        /// Control seleccionLB.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ListBox seleccionLB;
+        
+        /// <summary>
+        /// Control descripcionModificarTB.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox descripcionModificarTB;
+        
+        /// <summary>
+        /// Control eliminarBT.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button eliminarBT;
+        
+        /// <summary>
+        /// Control modificarBT.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button modificarBT;
+        
+        /// <summary>
         /// Control resultadoLB.
         /// </summary>
         /// <remarks>
@@ -74,5 +119,14 @@ namespace trabajoClase5 {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSourceCuentas;
+        
+        /// <summary>
+        /// Control SqlDataSourceCuentasModificar.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSourceCuentasModificar;
     }
 }
